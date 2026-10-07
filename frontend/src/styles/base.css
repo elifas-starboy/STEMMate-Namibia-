@@ -1,0 +1,11 @@
+/* Reset, typography, buttons and form controls */
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:1rem/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+svg{flex:none;vertical-align:-.2em}
+button{font:inherit;min-height:48px;padding:8px 18px;border-radius:12px;border:2px solid var(--pri);background:var(--card);color:var(--pri);cursor:pointer;font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+button.p{background:var(--pri);color:var(--onpri);box-shadow:var(--sh)}button.d{border-color:var(--err);color:var(--err)}button.cta{background:var(--acc);border-color:var(--acc);color:#0b2a52}
+button.block{width:100%}
+label{display:block;font-weight:700;margin-top:14px}.hint{color:var(--mut);font-size:.88rem;font-weight:400}
+input,select,textarea{width:100%;font:inherit;min-height:48px;padding:10px 12px;border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--fg)}
+h1{font-size:1.5rem;margin:.1em 0 .5em;line-height:1.2;letter-spacing:-.01em}h2{font-size:1.05rem;margin:0;line-height:1.3}p{margin:.4em 0}
